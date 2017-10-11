@@ -22,9 +22,9 @@ RAML documentation Process Flow:
 
 To understand this, lets first understand the architecture for different entities used under RAML documentation.
 
-Process Flow among different entities in RAML structure:
-
-RAML Documentation----> apis--assets_get_set_name.raml
+RAML Documentation----> 
+                        
+                        apis--assets_get_set_name.raml
 
                         ||      || --assets_get_set_records_by_id.raml
                         
