@@ -10,6 +10,7 @@ Process Flow among different entities in RAML structure:
 
 RAML Documentation----> apis--assets_get_set_name.raml
 
+
                         ||      || --assets_get_set_records_by_id.raml
                         
                         ||      || --assets_get_sub_records_by_id.raml
@@ -36,16 +37,26 @@ RAML Documentation----> apis--assets_get_set_name.raml
 
 
 PROJECT_NAME.raml   :  This file includes different raml files to define different entities.
-                       In our example, a company can have assests, humans, machines etc. 
+
+                       In our example, a company can have assests, humans, machines etc.
+                       
                        So, we will include at least 3 raml files in PROJECT_NAME.raml file.
-                       /assets: !include PROJECT_NAME_ASSETS.raml                       
+                       
+                       /assets: !include PROJECT_NAME_ASSETS.raml 
+                       
                        /human: !include PROJECT_NAME_HUMAN.raml
+                       
                        /machines: !include PROJECT_NAME_MACHINE.raml
+                       
 
                        These files will include reference to different schemas and example to be part of documentation.
+                       
                        These schema and examples are referenced by all-entities.raml file.
+                       
                        so, we would need to add reference to all-entities.raml as well in PROJECT_NAME.raml file.
+                       
                        types: !include apis/entities/all-entities.raml
+                       
 
 PROJECT_NAME_ASSETS.raml  : There are different such kind of files. for ex, PROJECT_NAME_HUMAN.raml, PROJECT_NAME_MACHINE.raml.
                         This file will reference the API definitions.
