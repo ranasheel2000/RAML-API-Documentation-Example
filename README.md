@@ -11,22 +11,14 @@ Process Flow among different entities in RAML structure:
 RAML Documentation----> apis--assets_get_set_name.raml
 
 
-                            ||      || --assets_get_set_records_by_id.raml
-                        
+                        ||      || --assets_get_set_records_by_id.raml
                         ||      || --assets_get_sub_records_by_id.raml
-                        
                         ||      || --human_get_set_name.raml
-                        
                         ||      || --human_get_set_records_by_id.raml
-                        
                         ||      || --human_get_sub_records_by_id.raml  
-                        
                         ||      || --machine_get_set_name.raml
-                        
                         ||      || --machine_get_set_records_by_id.raml
-                        
                         ||      || --machine_get_sub_records_by_id.raml
-                        
                         ||      ||                          
                         
                       errors    entities--Assets
@@ -36,7 +28,8 @@ RAML Documentation----> apis--assets_get_set_name.raml
                                     --all-entities.raml
 
 
-PROJECT_NAME.raml   :  This file includes different raml files to define different entities.
+PROJECT_NAME.raml   : 
+                       This file includes different raml files to define different entities.
                        In our example, a company can have assests, humans, machines etc.
                        So, we will include at least 3 raml files in PROJECT_NAME.raml file.
                        
@@ -56,7 +49,8 @@ PROJECT_NAME.raml   :  This file includes different raml files to define differe
                        types: !include apis/entities/all-entities.raml
                        
 
-PROJECT_NAME_ASSETS.raml  : There are different such kind of files. for ex, PROJECT_NAME_HUMAN.raml, PROJECT_NAME_MACHINE.raml.
+PROJECT_NAME_ASSETS.raml  : 
+                        There are different such kind of files. for ex, PROJECT_NAME_HUMAN.raml, PROJECT_NAME_MACHINE.raml.
                         This file will reference the API definitions.
                         Refer:
                         
@@ -65,12 +59,12 @@ PROJECT_NAME_ASSETS.raml  : There are different such kind of files. for ex, PROJ
                         /records/{id}/get_sub_records: !include apis/assets_get_sub_records_by_id.raml
 
 
-apis/assets_get_set_name.raml :  There will be a lot of such file for each API.
-
+apis/assets_get_set_name.raml :  
+                          There will be a lot of such file for each API.
                           This file will point to some entity which are defined in "entities/all-entities.raml" file.
                           
-apis/entities/all-entities.raml : This file contains reference to the schema and example of API request and response.
-
+apis/entities/all-entities.raml : 
+                           This file contains reference to the schema and example of API request and response.
                            Refer below example for "AssetsGetSetNameRequest" entity referenced in "apis/assets_get_set_name.raml" API  
                            file:
                            
@@ -83,7 +77,6 @@ apis/entities/all-entities.raml : This file contains reference to the schema and
 
 apis/entities/Assets/AssetsGetSetNameRequest.json
 apis/entities/Assets/AssetsGetSetNameResponse.json
-
                          These kind of files include structure of API request and response in respect of schema and example for APIs
                          request and response.
                          
