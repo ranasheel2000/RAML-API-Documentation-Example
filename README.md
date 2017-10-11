@@ -2,7 +2,7 @@
 RAML(RESTful API Modeling Language)
 https://raml.org/about-raml
 
-Installation Required for processing RAML docs:
+Installation Steps for processing RAML docs:
 ================================================
 
 1. Download node from nodejs.org.
@@ -17,7 +17,7 @@ Installation Required for processing RAML docs:
 
 
 
-How the process of RAML documentation works?
+RAML documentation Process Flow:
 ==============================================
 
 To understand this, lets first understand the architecture for different entities used under RAML documentation.
@@ -113,7 +113,8 @@ RAW FILE:
 RAML(RESTful API Modeling Language)
 https://raml.org/about-raml
 
-Installation Required for processing RAML docs:
+Installation Steps for processing RAML docs:
+================================================
 1. Download node from nodejs.org.
    : https://nodejs.org/en/download/
 2. After installation, run below command on command prompt on windows/ terminal on unix/linux.
@@ -125,7 +126,8 @@ Installation Required for processing RAML docs:
     raml2html PROJECT_NAME.raml > PROJECT_NAME.raml
 
 
-How the process of RAML documentation works?
+RAML documentation Process Flow:
+==============================================
 To understand this, lets first understand the architecture for different entities used under RAML documentation.
 Process Flow among different entities in RAML structure:
 
