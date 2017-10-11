@@ -25,8 +25,7 @@ To understand this, lets first understand the architecture for different entitie
 RAML Documentation----> 
                         
                         apis--assets_get_set_name.raml
-
-                        ||      || --assets_get_set_records_by_id.raml
+                        ||      || --assets_get_set_records_by_id.raml
                         
                         ||      || --assets_get_sub_records_by_id.raml
                         
