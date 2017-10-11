@@ -1,5 +1,18 @@
 # RAML-Documentation
-RAML Documentation
+RAML(RESTful API Modeling Language)
+https://raml.org/about-raml
+
+Installation Required for processing RAML docs:
+1. Download node from nodejs.org.
+   : https://nodejs.org/en/download/
+2. After installation, run below command on command prompt on windows/ terminal on unix/linux.
+    npm i -g raml2html
+    npm install -g raml-cop
+    npm install -g ramltojaxrs	
+
+3. Run below command to generate HTML docs:
+    raml2html PROJECT_NAME.raml > PROJECT_NAME.raml
+
 
 
 How the process of RAML documentation works?
@@ -93,7 +106,20 @@ These kind of files include structure of API request and response in respect of 
 RAW FILE:
 
 # RAML-Documentation
-RAML Documentation
+# RAML-Documentation
+RAML(RESTful API Modeling Language)
+https://raml.org/about-raml
+
+Installation Required for processing RAML docs:
+1. Download node from nodejs.org.
+   : https://nodejs.org/en/download/
+2. After installation, run below command on command prompt on windows/ terminal on unix/linux.
+    npm i -g raml2html
+    npm install -g raml-cop
+    npm install -g ramltojaxrs	
+
+3. Run below command to generate HTML docs:
+    raml2html PROJECT_NAME.raml > PROJECT_NAME.raml
 
 
 How the process of RAML documentation works?
