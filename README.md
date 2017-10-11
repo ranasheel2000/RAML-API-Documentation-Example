@@ -1,2 +1,2 @@
-# RAMPL-Documentation
-RAMPL Documentation
+# RAML-Documentation
+RAML Documentation
