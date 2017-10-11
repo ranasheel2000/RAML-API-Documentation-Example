@@ -51,10 +51,9 @@ So, we will include at least 3 raml files in PROJECT_NAME.raml file.
                        /human: !include PROJECT_NAME_HUMAN.raml
                        /machines: !include PROJECT_NAME_MACHINE.raml
                        
-
-These files will include reference to different schemas and example to be part of documentation.
-These schema and examples are referenced by all-entities.raml file.
-so, we would need to add reference to all-entities.raml as well in PROJECT_NAME.raml file.
+    These files will include reference to different schemas and example to be part of documentation.
+    These schema and examples are referenced by all-entities.raml file.
+    so, we would need to add reference to all-entities.raml as well in PROJECT_NAME.raml file.
                        types: !include apis/entities/all-entities.raml
                        
 
