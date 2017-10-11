@@ -26,23 +26,14 @@ RAML Documentation---->
                         
                         apis--assets_get_set_name.raml
                         ||      || --assets_get_set_records_by_id.raml
-                        
                         ||      || --assets_get_sub_records_by_id.raml
-                        
                         ||      || --human_get_set_name.raml
-                        
                         ||      || --human_get_set_records_by_id.raml
-                        
                         ||      || --human_get_sub_records_by_id.raml 
-                        
                         ||      || --machine_get_set_name.raml
-                        
                         ||      || --machine_get_set_records_by_id.raml
-                        
                         ||      || --machine_get_sub_records_by_id.raml
-                        
                         ||      ||                          
-                        
                       errors    entities--Assets
                                     --Human
                                     --Machine
